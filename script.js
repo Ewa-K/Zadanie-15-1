@@ -12,7 +12,7 @@ multiply(2 ,5);
 
 /*Zadanie trzecie*/
 
-const avarage = (...args) => console.log(args.reduce((sum, next) => sum + next) / args.length);	
+const avarage = (...args) => args.reduce((sum, next) => sum + next) / args.length;	
 avarage(1, 2, 3);
 
 /*Zadanie czwarte*/
